@@ -1,7 +1,7 @@
-Interaction Redis (V2.8) with node.js
+Interaction Riak (V2.8) with node.js
 =====================================
 
-In lib folder you have different files with interaction example how to use redis with Nodejs.
+In lib folder you have different files with interaction example how to use riak with Nodejs.
 
 Every files can work independant.
 
@@ -14,37 +14,16 @@ npm install
 
 In the lib folder you have separate example to show: how to use the each functions for Redis.
 
-You have a Rest Api example in the folder RestAPiExample, this is a global example how to use MongoDb in a real case.
+You have a Rest Api example in the folder RestAPiExample, this is a global example how to use redis in a real case.
 And of course the same Api with coffee Script syntax.
 
-What is rial?
+What is riak?
 ================
 
-Written in: C
+Riak is a distributed database designed to deliver maximum data availability by distributing data across multiple servers. As long as your Riak client can reach one Riak server, it should be able to write data.
 
-Main point: Blazing fast
+While Riak is typically known as an eventually consistent system, beginning with version 2.0 it can be used either as an eventually or strongly consistent system, and these two approaches can be mixed and matched in a single cluster.
 
-License: BSD
-test
-Disk-backed in-memory database,
-Dataset size limited to computer RAM (but can span multiple machines' RAM with clustering)
-Master-slave replication, automatic failover
-Simple values or data structures by keys
-but complex operations like ZREVRANGEBYSCORE.
-INCR & co (good for rate limiting or statistics)
-Bit operations (for example to implement bloom filters)
-Has sets (also union/diff/inter)
-Has lists (also a queue; blocking pop)
-Has hashes (objects of multiple fields)
-Sorted sets (high score table, good for range queries)
-Lua scripting capabilities (!)
-Has transactions (!)
-Values can be set to expire (as in a cache)
-Pub/Sub lets one implement messaging
+When Riak is used as an eventually consistent system, the data that you want to read should remain available in most failure scenarios, although it may not be the most up-to-date version of that data.
 
-Best used: For rapidly changing data with a foreseeable database size (should fit mostly in memory).
-
-For example: To store real-time stock prices. Real-time analytics. Leaderboards. Real-time communication. And wherever you used memcached before.
-
-
-fr/2011/08/ecrire-service-rest-nodejs-express-partie-1/
+When Riak is used as a strongly consistent system, on the other hand, reads will return the most up-to-date version of data, with the drawback that some nodes will be temporarily unavailable to receive writes in certain rare situations.
