@@ -1,4 +1,4 @@
-Interaction Riak (V2.8) with node.js
+Interaction Riak with node.js
 =====================================
 
 In lib folder you have different files with interaction example how to use riak with Nodejs.
