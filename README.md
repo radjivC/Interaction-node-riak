@@ -26,8 +26,7 @@ Main point: Blazing fast
 
 License: BSD
 
-Protocol: Telnet-like, binary safe
-
+rfeferfergre
 Disk-backed in-memory database,
 Dataset size limited to computer RAM (but can span multiple machines' RAM with clustering)
 Master-slave replication, automatic failover
