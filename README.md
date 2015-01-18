@@ -17,7 +17,7 @@ In the lib folder you have separate example to show: how to use the each functio
 You have a Rest Api example in the folder RestAPiExample, this is a global example how to use MongoDb in a real case.
 And of course the same Api with coffee Script syntax.
 
-What is Redis?
+What is rial?
 ================
 
 Written in: C
@@ -49,11 +49,4 @@ Best used: For rapidly changing data with a foreseeable database size (should fi
 For example: To store real-time stock prices. Real-time analytics. Leaderboards. Real-time communication. And wherever you used memcached before.
 
 
-
-Tutorial
-========
-
-you can already use this tutorial
-
-how to use redis with nodejs
-http://naholyr.fr/2011/08/ecrire-service-rest-nodejs-express-partie-1/
+fr/2011/08/ecrire-service-rest-nodejs-express-partie-1/
