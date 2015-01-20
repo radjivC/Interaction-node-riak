@@ -17,6 +17,9 @@ In the lib folder you have separate example to show: how to use the each functio
 You have a Rest Api example in the folder RestAPiExample, this is a global example how to use riak in a real case.
 And of course the same Api with coffee Script syntax.
 
+We are using riak-js, because the client libray is really awesome.
+
+
 What is riak?
 ================
 
