@@ -30,3 +30,12 @@ While Riak is typically known as an eventually consistent system, beginning with
 When Riak is used as an eventually consistent system, the data that you want to read should remain available in most failure scenarios, although it may not be the most up-to-date version of that data.
 
 When Riak is used as a strongly consistent system, on the other hand, reads will return the most up-to-date version of data, with the drawback that some nodes will be temporarily unavailable to receive writes in certain rare situations.
+
+
+## Licence
+
+MIT License. See LICENSE for details.
+
+## Copyright 
+
+It's just example as tutorial, so no copyright, use it like you want. The project use the MIT license.
